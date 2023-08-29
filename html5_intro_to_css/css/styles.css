@@ -1,0 +1,44 @@
+body{
+    background-color: navy;
+
+}
+
+#container {
+    background-color: lightgrey;
+    width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+header{
+    text-align: center;
+}
+
+header h1 {
+color: white;
+text-shadow: 2px 2px 5px black;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    color: black;
+    font-size: 20px;
+}
+
+nav a:hover {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    width: 60%;
+}
+
+footer {
+    text-align: center;
+}
