@@ -1,0 +1,125 @@
+body {
+    background-color: grey;
+}
+
+img {
+display: block;
+width: 100%;
+margin: 0 auto;
+}
+
+#container {
+    width: 65%;
+    margin: 20px auto;
+    background-color: lightslategray;
+    padding: 20px;
+}
+
+header {
+    background-color: darkgray;
+    text-align: center;
+    padding: 40px;
+}
+header h1 {
+    color: darkblue;
+    text-shadow: 2px 2px 2px white;
+}
+
+nav {
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+}
+nav li a {
+    background-color: azure;
+    display: block;
+    width: 150px;
+    height: 40px;
+    margin: 5px;
+    line-height: 40px;
+    color: darkred;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 2px solid gray;
+}
+
+nav li a:hover {
+    background-color: antiquewhite;
+}
+
+main {
+    background-color: burlywood;
+    padding: 20px;
+    display: flex;
+}
+
+main img {
+    width: 40%;
+}
+
+main h2 {
+    text-align: center;
+}
+
+footer {
+    background-color: lightgrey;
+    color: royalblue; 
+    padding: 40px 0;
+    text-align: center;
+}
+
+.tsyle {
+    color: blue; 
+    text-shadow: 1px 1px 1px white;
+}
+
+#main_section { 
+display: flex;
+}
+
+section, aside {
+    background-color: aqua;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px black;
+}
+
+section {
+    width: 70%;
+}
+
+aside {
+    width: 30%;
+}
+
+#main_img_resize {
+    width: 55%;
+}
+
+#single_page {
+    width: 100%; 
+}
+
+.col {
+    border: 2px solid black;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+table {
+    border: 4px solid gray;
+}
+
+td,
+tr {
+    border: 10px solid black;;
+}
