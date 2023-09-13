@@ -1,0 +1,184 @@
+/* global css */
+
+/* mobial css */ 
+body {
+    background-color: darkgrey;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+h1,
+h2, 
+h3,
+h4,
+h5 {
+    color: crimson;
+    text-align: center;
+}
+
+#container {
+    background-color: lightslategray;
+}
+
+nav {
+    background-color: crimson;
+    padding: 2px 0;
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: block;
+}
+
+nav li a {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    background-color: gray;
+    color: blue;
+    text-decoration: none;
+    font-size: 1.3em;
+    padding: 5px 0;
+}
+
+nav li a:hover {
+    background-color: yellow;
+    color: black;
+    border-color: antiquewhite;
+}
+
+main {
+    padding: 10px;
+}
+.col {
+    padding: 10px;
+}
+
+footer {
+    background-color: slategrey;
+    color: burlywood;
+    font-weight: bold;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.button {
+    display: block;
+    width: 100px;
+    height: 10px;
+    line-height: 10px;
+    background-color: aqua;
+    color: navy;
+    text-decoration: burlywood;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    border: 4px solid black;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: gray;
+    border-color: burlywood;
+}
+
+table {
+    border: black;
+}
+
+tr,
+td {
+    border: 4px solid blue;
+}
+
+/* tablet css */
+
+@media (min-width: 786px) {
+nav li {
+    display: inline-block;
+    border: 0;
+}
+
+nav li a {
+    width: 175px;
+    margin: 0 5px;
+    border-radius: 10px;
+    border: 2px solid silver;
+}
+
+main {
+    display: flex;
+}
+
+section, 
+aside {
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid burlywood;
+    border-radius: 10px;
+}
+
+section {
+    width: 70%;
+}
+
+aside {
+    width: 30%;
+}
+
+.col img {
+    width: 75%;
+}
+
+.button {
+    margin-left: auto;
+    margin-right: auto;
+}
+}
+
+/* desktop css*/
+
+@media (min-width: 1024px) {
+#container {
+    width: 65%;
+    margin: 20px auto;
+} 
+
+    nav li a {
+    background-color: silver;
+    border: 0;
+}
+
+#lower_area {
+    display: flex;
+}
+
+.col {
+    border: 2px solid burlywood;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+
+}
+
+.single_page {
+    width: 100%;
+}
+
+section img {
+    width: 75%;
+}
+
+}
+
+
+
